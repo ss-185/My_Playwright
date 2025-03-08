@@ -2,7 +2,7 @@
 //Understand how to create and use Promises in JavaScript.
 
 let conditionalPromise = new Promise ((resolve, reject)=>{
-    let number = 56;
+    let number = Math.random();
 if (number>0.5){
     resolve(` ${number} Resolved successfully`);
 }else {
